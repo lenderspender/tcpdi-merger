@@ -627,9 +627,9 @@ class TCPDI extends FPDF_TPL {
 
                 reset ($value[1]);
 
-                while (list($k, $v) = each($value[1])) {
-                    $this->_straightOut($k . ' ');
-                    $this->pdf_write_value($v);
+                foreach($value[1] as $key=>$value){
+                    $this->_straightOut($key . ' ');
+                    $this->pdf_write_value($value);
                 }
 
                 $this->_straightOut('>>');
