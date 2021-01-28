@@ -1,12 +1,12 @@
-# tcpdi-merger
-TCPDI-merger. Merge PDF files using the TCPDI library.
+# tcpdi-merger made compatible for PHP 8
+TCPDI-merger. Merge PDF files using the TCPDI library. 
 
-###Make it work!
+### Make it work!
 1. `composer require rcamposp/tcpdi-merger`
 2. Copy the example directory. 
 3. Run it! `php example/test-php.php`
 
-###Example code
+### Example code
 ```
 <?php
 
